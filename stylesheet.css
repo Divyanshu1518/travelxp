@@ -1,0 +1,151 @@
+*{
+	margin : 0; padding: 0; box- sizing: border-box;
+}	
+
+header{
+
+	width:100% ; height: 100vh;
+	background-image: url(Taj.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	background: rgba(0,0,100,0.2);
+}    
+
+.header {
+    color: white;
+    text-transform: uppercase;
+    text-align:  center;
+}
+ 
+ 
+ 
+  }
+
+.logo {
+    display:  flex;
+    color: white;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    text-align:  center;
+    vertical-align:  middle;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration:  none;    
+    color:  white;
+}
+
+.menuElem {
+    padding-top: 5px;
+}
+header .search-bar-container{
+  position: absolute;
+  top:5%; left: 0; right:0;
+
+  padding:1.5rem 2rem;
+  background:#333;
+  border-top: .1rem solid rgba(255,255,255,.2);
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .search-bar-container.active{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+header .search-bar-container #search-bar{
+  width:100%;
+  padding:1rem;
+  text-transform: capitalize;
+  color:#333;
+  font-size: 4rem;
+  border-radius: 5rem;
+}
+
+
+nav.menu{
+     width: 25%; 
+     text-decoration: : none; color: white;
+     font-weight: bold;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}    
+
+section{
+
+}
+
+section h3{
+    font-size: : 35px; font-weight: 200; letter-spacing: 3px;
+    text-shadow: : 1px 1px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section h2 {
+    margin: auto;
+}
+section .btnone{
+
+    background: #fff;
+    color: #000;
+}
+
+.btnone:hover{
+    background: #00b894;
+    color: white;
+}
+
+
+section .btntwo{
+    background: #00b894;
+    color: white;
+}    
+
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+function myFunction() {
+     background: #00b894;
+    color: white;
+}
+
