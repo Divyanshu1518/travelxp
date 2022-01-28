@@ -1,0 +1,29 @@
+body{
+	background: url("signupindia.jpg");
+	background-size: cover;
+	box-sizing: border-box;
+	
+}
+.form-class{
+	position: absolute;
+	top:50%;
+	left:80%;
+    transform: translate(-50%,-50%);
+    border:3px solid black;
+    border-radius: 25px;
+    padding:40px;
+
+}
+.input-container{
+	display: flex;
+	margin-bottom: 15px;
+}
+.btn{
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	padding:15px;
+	width:100%;
+	border:none;
+	border-radius: 5px;
+}
